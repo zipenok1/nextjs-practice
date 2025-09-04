@@ -1,13 +1,10 @@
-'use client'
-import { useParams } from "next/navigation"
+import UserIdClient from './userIdClient'
 
-export default function() {
-
-    const params = useParams()
-
-    return(
-        <div>
-            Пользователь с id {params.id}
-        </div>
-    )
+export default async function page({params}) {
+    console.log(params);
+  // Этот запрос должен перезапрашиваться при каждом запросе.
+  // Аналогично `getServerSideProps`.
+  const dynamicData = await fetch(`https://jsonplaceholder.typicode.com/users/${params.id}`)
+  const user = await dynamicData.json()
+  return <UserIdClient user={user}/>
 }
