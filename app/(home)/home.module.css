@@ -1,0 +1,23 @@
+.home__content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.home__cards {
+    max-width: 450px;
+    padding: 14px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 16px;
+}
+.home__cards h3{
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+.home__cards p:nth-child(2){
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.home__cards p:nth-child(3){
+    font-size: 18px;
+}

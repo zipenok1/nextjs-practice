@@ -1,20 +1,21 @@
-/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./components/mainContainer.modulee.css ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************/
-.wrap{
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/mainContainer.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.mainContainer_wrap__o1jVM{
     max-width: 1920px;
     width: 80%;
     margin: 0 auto;
 }
 
-.nav {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: rgb(203, 214, 41);
-    border-radius: 10px;
+.mainContainer_nav__KuhgY {
+    margin: 25px 0 40px 0;
+    padding: 30px 40px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 16px;
+    display: flex;
+    gap: 30px;
 }
 
-.nav a{
-    padding: 10px;
+.mainContainer_nav__KuhgY a{
     font-size: 20px;
 }

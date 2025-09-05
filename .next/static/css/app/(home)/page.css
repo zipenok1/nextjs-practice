@@ -1,0 +1,47 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/mainContainer.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.mainContainer_wrap__o1jVM{
+    max-width: 1920px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mainContainer_nav__KuhgY {
+    margin: 25px 0 40px 0;
+    padding: 30px 40px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 16px;
+    display: flex;
+    gap: 30px;
+}
+
+.mainContainer_nav__KuhgY a{
+    font-size: 20px;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./app/(home)/home.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.home_home__content__vv__z{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.home_home__cards__BA4wa {
+    max-width: 450px;
+    padding: 14px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 16px;
+}
+.home_home__cards__BA4wa h3{
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+.home_home__cards__BA4wa p:nth-child(2){
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.home_home__cards__BA4wa p:nth-child(3){
+    font-size: 18px;
+}

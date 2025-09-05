@@ -1,12 +1,13 @@
 import Link from "next/link";
-import './mainContainer.modulee.css'
+import styles from './mainContainer.module.css'
 
 function MainContainer({children}) {
   return (
-    <div className="wrap">
-        <div className="nav">
+    <div className={styles.wrap}>
+        <div className={styles.nav}>
             <Link href="/">Главаня</Link>
             <Link href="/users">Пользователи</Link>
+            <Link href="/posts">Сообщения</Link>
         </div>
         <div>
             {children}

@@ -1,0 +1,18 @@
+.wrap{
+    max-width: 1920px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav {
+    margin: 25px 0 40px 0;
+    padding: 30px 40px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 16px;
+    display: flex;
+    gap: 30px;
+}
+
+.nav a{
+    font-size: 20px;
+}
