@@ -2,11 +2,12 @@
 
 import Link from "next/link"
 import styles from './users.module.css'
+import MainContainer from "../../components/mainContainer"
 
 export default function UsersClient({users}) {
 
   return (
-    <div>
+    <MainContainer>
         <h1 className={styles.text}>Страница пользователей</h1>
         <ul>
           {users.map(el =>
@@ -17,6 +18,6 @@ export default function UsersClient({users}) {
           </li> 
           )}
         </ul>
-    </div>
+    </MainContainer>
   )
 }

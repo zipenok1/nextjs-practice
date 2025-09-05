@@ -1,13 +1,9 @@
-import Link from "next/link";
+import MainContainer from '../components/mainContainer'
 
 export default function index() {
   return (
-    <div>
-      <div className="nav">
-        <Link href="/">Главаня</Link>
-        <Link href="/users">Пользователи</Link>
-      </div>
+    <MainContainer>
       <h1>Главная страница</h1>
-    </div>
+    </MainContainer>
   )
 }

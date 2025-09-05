@@ -9,6 +9,7 @@
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
     "/users/page": [
@@ -20,6 +21,7 @@
     "/users/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/users/[id]/page.css",
       "static/chunks/app/users/[id]/page.js"
     ]
   }
